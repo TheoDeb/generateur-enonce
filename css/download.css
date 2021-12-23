@@ -1,0 +1,73 @@
+body{
+    overflow-y: auto;
+  }
+  
+  fieldset{
+    border-radius: 14px;
+  }
+  
+  h1{
+    font-weight: bold !important;
+  }
+  
+
+    body.generate{
+      -webkit-print-color-adjust: exact !important;
+      padding: 0 !important;
+      border: 1px solid #000;
+      border-radius: 14px;
+      height: min-content;
+      margin: 0;
+      display: block;
+    }
+  
+    .generate .content-section {
+      margin: 0 !important;
+    }
+  
+    .generate fieldset {
+      padding: 1rem !important;
+    }
+  
+    .generate .fieldset-champs-secondaire {
+      border: 1px solid #000;
+      padding: 1rem;
+    }
+  
+    .generate .fieldset-champs-secondaire:first-child {
+        margin-top: .5rem !important;
+    }
+  
+    .generate .fieldset-champs-secondaire:last-child {
+        margin-bottom: .5rem !important;
+    }
+  
+    .generate h1 {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+  img{
+      height: 200px;
+  }
+  
+  pre{
+      margin-right: 20px;
+      background: none;
+      border: 1px solid black;
+      border-radius: 14px;
+  }
+  
+  blockquote{
+      margin-right: 20px;
+      font-style: italic;
+      border-left:4px solid black;
+      font-family: Georgia, "Times New Roman", serif;
+      border-top: none;
+      border-bottom: 1px solid black;
+      border-right: none;
+  }
+
+  #copyright{
+    text-align: center !important;
+  }

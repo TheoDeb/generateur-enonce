@@ -1,0 +1,79 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Lucida Console", Monaco, monospace;
+  line-height: 1.5;
+}
+
+a{
+  color: #34c84a;
+  text-decoration: none;
+}
+
+.text{
+  color: white;
+}
+
+@media (min-width: 640px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .content {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 45px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+  }
+
+  .browser-bar {
+    background: #f9f9f3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    overflow: hidden;
+    border-radius: 14px 14px 0 0;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+
+  .close-404 {
+    background: #fc635d;
+    margin-left: 5px;
+  }
+
+  .min {
+    background: #fdbc40;
+  }
+
+  .max {
+    background: #34c84a;
+  }
+}
+
+a:hover{
+  color: #34c84a;
+  border-bottom: solid 2px;
+}
