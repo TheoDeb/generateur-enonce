@@ -13,11 +13,11 @@
 
     $config = array(
         'host' => 'localhost',
-        'user' => 'theojmsu_theo',
-        'password' => 'q&fKtSnLmC9k?5DG',
-        'bdd_name' => 'theojmsu_gestionenonce',
+        'user' => '', /*USER*/
+        'password' => '', /*PASSWORD*/
+        'bdd_name' => '', /*BD_NAME*/
 
-        'link' => 'https://generateur-enonce.theo-debefve.be',
+        'link' => 'https://...', /*WEBSITE_LINK*/
     );
 
     $con = mysqli_connect($config['host'], $config['user'], $config['password'], $config['bdd_name']);
